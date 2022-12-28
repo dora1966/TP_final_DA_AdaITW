@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
-
-
 .cont-nav {
   width: 100%;
   padding: 10px;
@@ -15,7 +13,30 @@
   font-family: Haettenschweiler;
   background-color: rgb(240, 216, 216);
 }
+.img{
+  background-color: aqua;
+  display: flex;
+  height: 100px;
+  margin: 20px 40px;
+ }
 
+.tigre {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 3px solid rgb(192, 164, 164);
+  justify-content: center;
+  text-align: center;
+ }
+
+.ada {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 3px solid rgb(192, 164, 164);
+  }
+
+/* 
 .tigre {
   width: 100px;
   height: 100px;
@@ -30,7 +51,7 @@
   object-fit: cover;
   margin-right: 40px;
   border: 1px solid black;
-}
+} */
 
 .h1 {
   width: 60%;
@@ -172,5 +193,5 @@ footer {
         font-size: 10px;
       }
     }
-  }
+  
 
