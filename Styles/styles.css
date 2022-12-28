@@ -13,45 +13,26 @@
   font-family: Haettenschweiler;
   background-color: rgb(240, 216, 216);
 }
-.img{
-  background-color: aqua;
+
+.img {
   display: flex;
   height: 100px;
   margin: 20px 40px;
- }
+}
 
 .tigre {
   width: 100px;
   height: 100px;
   object-fit: cover;
   border: 3px solid rgb(192, 164, 164);
-  justify-content: center;
-  text-align: center;
- }
-
-.ada {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border: 3px solid rgb(192, 164, 164);
-  }
-
-/* 
-.tigre {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  margin-left: 40px;
-  border: 1px solid black;
 }
 
 .ada {
   width: 100px;
   height: 100px;
   object-fit: cover;
-  margin-right: 40px;
-  border: 1px solid black;
-} */
+  border: 3px solid rgb(192, 164, 164);
+}
 
 .h1 {
   width: 60%;
@@ -69,8 +50,7 @@
   font-family: Haettenschweiler;
   color: red;
   font-size: 60px;
-  font-weight: 300;
-  font-weight: bolder;
+  font-weight: 300 bolder;
   padding: 0;
   text-shadow: black 0.1em 0.1em 0.2em;
   display: flex;
@@ -165,33 +145,32 @@ footer {
 @media(max-width:880px) {
   .tarjeta {
     background-color: green;
-      }
+  }
 
-      .h1 {
-        font-size: 35px;
-      }    
+  .h1 {
+    font-size: 35px;
+  }
 
-      .parrafo,
-      .parrafo1,
-      .parrafo2 {
-        font-size: 10px;
-      }
-    }
+  .parrafo,
+  .parrafo1,
+  .parrafo2 {
+    font-size: 10px;
+  }
+}
 
-  /*Responsive design para celular*/
-  @media(max-width:480px) {
-    .tarjeta {
-      background-color: blue;
-    }
-    .h1 {
-      font-size: 15px;
-    }    
-    
-    .parrafo,
-      .parrafo1,
-      .parrafo2 {
-        font-size: 10px;
-      }
-    }
-  
+/*Responsive design para celular*/
+@media(max-width:480px) {
+  .tarjeta {
+    background-color: blue;
+  }
 
+  .h1 {
+    font-size: 15px;
+  }
+
+  .parrafo,
+  .parrafo1,
+  .parrafo2 {
+    font-size: 10px;
+  }
+}
