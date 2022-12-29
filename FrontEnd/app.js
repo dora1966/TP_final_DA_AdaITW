@@ -13,9 +13,15 @@ fetch(URL_API)
         for (let character of characters) {
             console.log(character);
             $container.innerHTML += `
-      <li class="option-name"> Nombre: ${character.name} 
-        <br>
+      <div class="option-name"> 
         <img class="tarjeta" src="${character.image}" alt="imagen de ${character.name}"> 
+        <div class="info">
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 class="nombre"> ${character.name} </h1>
+        <br>
         <br>
         Sex: ${character.gender} 
         <br>
@@ -25,7 +31,8 @@ fetch(URL_API)
         <br>
         <br>
         <br>
-        </li>
+        </div>
+        </div>
        `;
         }
     });
