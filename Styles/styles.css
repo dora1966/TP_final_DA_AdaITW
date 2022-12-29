@@ -90,8 +90,8 @@
   border-radius: 20px;
   padding: 5px 10px;
   margin: 5px 20px;
-  width: 50%;
-  height: 50%;
+  width: 280px;
+  height: 280px;
   background-color: rgb(182, 65, 65);
   border: 2px solid black;
   align-items: center;
@@ -103,6 +103,7 @@
   display: flex;
   background-color: black;
   border-radius: 10%;
+  grid-template-columns: 1fr 1fr;
 }
 
 .nombre {
@@ -177,6 +178,7 @@ footer {
     background-color: brown;
     flex-direction: column;
     justify-content: center;
+    grid-template-columns: 1fr;
   }
 
   .h1 {
@@ -202,6 +204,7 @@ footer {
     background-color: rgb(219, 118, 118);
     flex-direction: column;
     justify-content: center;
+    grid-template-columns: 1fr;
   }
 
   .nombre {

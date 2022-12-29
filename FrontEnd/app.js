@@ -23,11 +23,11 @@ fetch(URL_API)
         <h1 class="nombre"> ${character.name} </h1>
         <br>
         <br>
-        Sex: ${character.gender} 
+        <h5 class="info-add"> Sex: ${character.gender} </h5>
         <br>
-        Live in: ${character.location.name} 
+        <h5 class="info-add"> Live in: ${character.location.name} </h5>
         <br> 
-        Status: ${character.status}
+        <h5 class="info-add"> Status: ${character.status}</h5>
         <br>
         <br>
         <br>
